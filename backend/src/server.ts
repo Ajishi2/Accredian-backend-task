@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use('/api', referralRouter);
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:4000',
+  origin: process.env.FRONTEND_URL || 'https://accredian-frontend-task-p9u8djuu6-ajishi2s-projects.vercel.app/',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
