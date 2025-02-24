@@ -52,7 +52,7 @@ export default function ReferAndEarn() {
     <div className="min-h-screen bg-[#F8FAFC]">
       <SiteHeader />
 
-      {/* Hero Section */}
+    
       <section className="relative bg-[#EEF2FF] py-16">
       <div className="container">
         <div className="grid gap-12 lg:grid-cols-2">
@@ -87,7 +87,7 @@ export default function ReferAndEarn() {
   )
 
 
-      {/* How it Works */}
+      
       <section className="py-16">
         <div className="container">
           <h2 className="mb-12 text-center text-3xl font-bold">
@@ -120,38 +120,7 @@ export default function ReferAndEarn() {
         </div>
       </section>
 
-      {/* Benefits Table */}
-      {/* <section className="py-16">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">
-            What Are The <span className="text-blue-600">Referral Benefits</span>?
-          </h2>
-          <div className="rounded-lg border bg-white">
-            <div className="grid grid-cols-[2fr,1fr,1fr] gap-4 border-b p-4 font-medium">
-              <div>Programs</div>
-              <div>Referrer Bonus</div>
-              <div>Referee Bonus</div>
-            </div>
-            <div className="divide-y">
-              {programs.map((program, index) => (
-                <div key={index} className="grid grid-cols-[2fr,1fr,1fr] gap-4 p-4">
-                  <div>{program.name}</div>
-                  <div>₹{program.referrerBonus}</div>
-                  <div>₹{program.refereeBonus}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="mt-8 text-center">
-            <Button onClick={() => setIsModalOpen(true)} size="lg">
-              Refer Now
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </div>
-        </div>
-      </section> */}
-
-      {/* Programs Section */}
+     
       <section className="py-16">
         <div className="container">
           <h2 className="mb-8 text-center text-3xl font-bold">
@@ -199,7 +168,7 @@ export default function ReferAndEarn() {
 
       <FAQSection />
 
-      {/* Get in Touch Banner */}
+      
       <section className="bg-blue-600 py-12">
         <div className="container">
           <div className="flex items-center justify-between rounded-lg bg-blue-500 p-8">
