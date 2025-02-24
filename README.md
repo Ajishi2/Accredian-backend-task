@@ -1,4 +1,4 @@
-# Refer & Earn System
+# Accredian
 
 A full-stack MERN application that enables users to refer courses to friends and earn rewards.
 
